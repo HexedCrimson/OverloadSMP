@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "overload",
+	"version": "${version}",
+	"name": "Overload SMP",
+	"description": "This mod adds some stuff and tools for the Overload SMP.",
+	"authors": [
+		"HexedCrimson"
+	],
+	"contact": {
+		"homepage": "https://github.com/HexedCrimson/OverloadSMP/releases",
+		"sources": "https://github.com/HexedCrimson/OverloadSMP",
+		"issues": "https://github.com/HexedCrimson/OverloadSMP/issues"
+	},
+	"license": "BSD 3-Clause",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.hexedcrimson.overload.OverloadSMP"
+		]
+	},
+	"mixins": [
+		"overload.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
