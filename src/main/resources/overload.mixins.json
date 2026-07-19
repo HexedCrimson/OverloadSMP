@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "io.github.hexedcrimson.overload.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"SplashOverlayMixin",
+		"PanoramaRendererMixin",
+		"TitleScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
